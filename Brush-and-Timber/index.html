@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brush & Timber | Custom Fine Art</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Brush & Timber</h1>
+        <p>Custom Fine Art — Pet Portraits, Saw Paintings & Wildlife Art</p>
+        <p style="margin-top: 15px;">
+            <a href="index.html" style="color: white; font-weight: bold; text-decoration: underline; margin-right: 20px;">Home</a>
+            <a href="about.html" style="color: white; font-weight: bold; text-decoration: underline; margin-right: 20px;">Meet the Artist</a>
+            <a href="inventory.html" style="color: white; font-weight: bold; text-decoration: underline; margin-right: 20px;">View Available Inventory for Sale</a>
+            <a href="shipping.html" style="color: white; font-weight: bold; text-decoration: underline;">Shipping & Policies</a>
+        </p>
+    </header>
+
+    <section class="content">
+        <h2>Gallery</h2>
+        <p>Explore our recent hand-crafted original paintings.</p>
+        
+        <div class="galleries">
+            <div class="card">
+                <a href="pet-portrait.html" style="text-decoration: none; color: inherit; display: block;">
+                    <img src="pet-portraits/pet-portrait-4.jpg" alt="Pet Portrait Painting">
+                    <h3 style="color: #1e3f20; margin-top: 0;">Pet Portraits</h3>
+                </a>
+                <p>Capturing the personality and spirit of your beloved animal companions.</p>
+                <div style="margin-top: 15px;">
+                    <a href="pet-portrait.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="saw-painting.html" style="text-decoration: none; color: inherit; display: block;">
+                    <img src="Saw-paintings/deer-saw-painting-1.jpg" alt="Saw Painting">
+                    <h3 style="color: #1e3f20; margin-top: 0;">Saw Paintings</h3>
+                </a>
+                <p>Unique rustic artwork hand-painted directly onto vintage timber and saws.</p>
+                <div style="margin-top: 15px;">
+                    <a href="saw-painting.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="hunting-art.html" style="text-decoration: none; color: inherit; display: block;">
+                    <img src="hunting-trophy-1.jpg" alt="Hunting and Outdoor Painting">
+                    <h3 style="color: #1e3f20; margin-top: 0;">Hunting Trophies</h3>
+                </a>
+                <p>Preserving your memorable outdoor moments and wildlife achievements on canvas.</p>
+                <div style="margin-top: 15px;">
+                    <a href="hunting-art.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="wildlife-art.html" style="display: block; text-decoration: none; color: inherit;">
+                    <img src="wildlife-art/Golden-hour-1.jpg" alt="Wildlife Art Painting" style="width: 100%;">
+                    <h3 style="color: #1e3f20; margin-top: 10px; margin-bottom: 5px;">Wildlife Art</h3>
+                </a>
+                <p style="margin-top: 0;">Original fine art celebrating North American fauna, birds, and natural habitats.</p>
+                <div style="margin-top: 15px;">
+                    <a href="wildlife-art.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="commission-section">
+        <div class="commission-box">
+            <h3>Send a Custom Inquiry</h3>
+            <p>Fill out the form below and we will get back to you shortly:</p>
+            
+            <form action="https://formspree.io/f/xeeyrbgo" method="POST" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px; text-align: left;">
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Your Name</label>
+                    <input type="text" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Your Email</label>
+                    <input type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                
+                <div>
+                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Project Details / Message</label>
+                    <textarea name="message" rows="4" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;"></textarea>
+                </div>
+                
+                <button type="submit" class="btn" style="border: none; cursor: pointer; align-self: center; margin-top: 10px;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
+        <p>&copy; 2026 Brush & Timber. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
