@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brush & Timber | Custom Fine Art</title>
+    <title>Brush & Timber | Custom Fine Art & Wildlife Art</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header style="text-align: center; padding: 20px;">
         <h1>Brush & Timber</h1>
         <p>Custom Fine Art — Pet Portraits, Saw Paintings & Wildlife Art</p>
         
-        <!-- CLEAN STACKED NAVIGATION FOR MOBILE & DESKTOP -->
-        <nav style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        <!-- RESPONSIVE NAVIGATION: Side-by-side on computers, wraps/stacks on mobile -->
+        <nav style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
             <a href="index.html" style="color: white; font-weight: bold; text-decoration: underline;">Home</a>
             <a href="about.html" style="color: white; font-weight: bold; text-decoration: underline;">Meet the Artist</a>
             <a href="inventory.html" style="color: white; font-weight: bold; text-decoration: underline;">View Available Inventory for Sale</a>
@@ -21,56 +22,42 @@
         </nav>
     </header>
 
-    <section class="content">
-        <h2>Gallery</h2>
-        <p>Explore our recent hand-crafted original paintings.</p>
-        
-        <div class="galleries">
+    <main style="max-width: 1000px; margin: 40px auto; padding: 0 20px; text-align: center;">
+        <h2 style="font-size: 2rem; margin-bottom: 10px; color: #1e3f20;">Welcome to Brush & Timber Studio</h2>
+        <p style="font-size: 1.1rem; color: #555; margin-bottom: 40px; line-height: 1.6;">Hand-crafted original art celebrating nature, wildlife, and your most cherished animal companions.</p>
+
+        <!-- Portfolio Collections Grid -->
+        <div class="galleries" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 50px;">
+            
             <div class="card">
-                <a href="pet-portrait.html" style="text-decoration: none; color: inherit; display: block;">
-                    <img src="Pet-portraits/Pet-Portrait-4.jpg" alt="Pet Portrait Painting">
-                    <h3 style="color: #1e3f20; margin-top: 0;">Pet Portraits</h3>
+                <a href="pet-portrait.html" style="display: block; text-decoration: none;">
+                    <img src="Pet-portraits/Pet-Portrait-1.jpg" alt="Pet Portraits" style="width: 100%; height: 220px; object-fit: cover; display: block; margin-bottom: 0;">
                 </a>
-                <p>Capturing the personality and spirit of your beloved animal companions.</p>
-                <div style="margin-top: 15px;">
-                    <a href="pet-portrait.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
-                </div>
+                <h3 style="margin-top: 15px;"><a href="pet-portrait.html" style="color: #1e3f20; text-decoration: none;">Pet Portraits Collection</a></h3>
+                <p>Detailed custom fine art capturing the personality and spirit of your companion animals.</p>
+                <a href="pet-portrait.html" class="btn" style="margin-top: 15px; display: inline-block;">View Collection</a>
             </div>
 
             <div class="card">
-                <a href="saw-painting.html" style="text-decoration: none; color: inherit; display: block;">
-                    <img src="Saw-paintings/deer-saw-painting-1.jpg" alt="Saw Painting">
-                    <h3 style="color: #1e3f20; margin-top: 0;">Saw Paintings</h3>
+                <a href="saw-painting.html" style="display: block; text-decoration: none;">
+                    <img src="Saw-paintings/deer-saw-painting-1.jpg" alt="Saw Paintings" style="width: 100%; height: 220px; object-fit: cover; display: block; margin-bottom: 0;">
                 </a>
-                <p>Unique rustic artwork hand-painted directly onto vintage timber and saws.</p>
-                <div style="margin-top: 15px;">
-                    <a href="saw-painting.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
-                </div>
+                <h3 style="margin-top: 15px;"><a href="saw-painting.html" style="color: #1e3f20; text-decoration: none;">Saw Paintings Collection</a></h3>
+                <p>Unique rustic artwork hand-painted directly onto vintage timber and crosscut saw blades.</p>
+                <a href="saw-painting.html" class="btn" style="margin-top: 15px; display: inline-block;">View Collection</a>
             </div>
 
             <div class="card">
-                <a href="hunting-art.html" style="text-decoration: none; color: inherit; display: block;">
-                    <img src="hunting-trophy-1.jpg" alt="Hunting and Outdoor Painting">
-                    <h3 style="color: #1e3f20; margin-top: 0;">Hunting Trophies</h3>
+                <a href="wildlife-art.html" style="display: block; text-decoration: none;">
+                    <img src="Wildlife-art/Golden-hour-1.jpg" alt="Wildlife Art" style="width: 100%; height: 220px; object-fit: cover; display: block; margin-bottom: 0;">
                 </a>
-                <p>Preserving your memorable outdoor moments and wildlife achievements on canvas.</p>
-                <div style="margin-top: 15px;">
-                    <a href="hunting-art.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
-                </div>
+                <h3 style="margin-top: 15px;"><a href="wildlife-art.html" style="color: #1e3f20; text-decoration: none;">Wildlife Art Collection</a></h3>
+                <p>Original fine art celebrating North American fauna, birds, and natural habitats.</p>
+                <a href="wildlife-art.html" class="btn" style="margin-top: 15px; display: inline-block;">View Collection</a>
             </div>
 
-            <div class="card">
-                <a href="wildlife-art.html" style="display: block; text-decoration: none; color: inherit;">
-                    <img src="Wildlife-art/Golden-hour-1.jpg" alt="Wildlife Art Painting" style="width: 100%;">
-                    <h3 style="color: #1e3f20; margin-top: 10px; margin-bottom: 5px;">Wildlife Art</h3>
-                </a>
-                <p style="margin-top: 0;">Original fine art celebrating North American fauna, birds, and natural habitats.</p>
-                <div style="margin-top: 15px;">
-                    <a href="wildlife-art.html" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Gallery →</a>
-                </div>
-            </div>
         </div>
-    </section>
+    </main>
 
     <section class="commission-section">
         <div class="commission-box">
@@ -102,5 +89,7 @@
         <p>&copy; 2026 Brush & Timber. All rights reserved.</p>
     </footer>
 
+</body>
+</html>
 </body>
 </html>
