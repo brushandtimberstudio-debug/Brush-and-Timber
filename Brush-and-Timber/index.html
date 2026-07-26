@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header style="text-align: center; padding: 20px;">
         <h1>Brush & Timber</h1>
         <p>Custom Fine Art — Pet Portraits, Saw Paintings & Wildlife Art</p>
         
-        <!-- RESPONSIVE NAVIGATION: Side-by-side on computers, wraps/stacks on mobile -->
-        <nav style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+        <!-- CLEAN STACKED NAVIGATION FOR MOBILE & DESKTOP -->
+        <nav style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px; align-items: center;">
             <a href="index.html" style="color: white; font-weight: bold; text-decoration: underline;">Home</a>
             <a href="about.html" style="color: white; font-weight: bold; text-decoration: underline;">Meet the Artist</a>
             <a href="inventory.html" style="color: white; font-weight: bold; text-decoration: underline;">View Available Inventory for Sale</a>
@@ -23,12 +24,12 @@
 
     <section class="content">
         <h2>Welcome to Brush & Timber</h2>
-        <p>Explore our collections of original hand-painted wildlife art, custom pet portraits, and rustic saw paintings.</p>
+        <p>Explore our collections of original hand-painted wildlife art, custom pet portraits, rustic saw paintings, and heirloom hunting commemoration pieces.</p>
 
         <div class="galleries">
             <div class="card">
                 <a href="pet-portraits.html" style="display: block;">
-                    <img src="Wildlife-art/wildlife-photo-2.jpg" alt="Pet Portraits Collection" style="width: 100%; display: block; margin-bottom: 0;">
+                    <img src="Pet-portraits/pet-portrait-4.jpg" alt="Pet Portraits Collection" style="width: 100%; display: block; margin-bottom: 0;">
                 </a>
                 <h3 style="margin-top: 15px;">Pet Portraits Collection</h3>
                 <p>Detailed custom fine art capturing the personality and spirit of your companion animals.</p>
@@ -52,11 +53,21 @@
                 <p>Original fine art celebrating North American fauna, birds, and natural habitats.</p>
                 <a href="wildlife-art.html" class="btn" style="display: inline-block; margin-top: 15px;">View Collection</a>
             </div>
+
+            <div class="card">
+                <a href="request-commission.html" style="display: block;">
+                    <img src="Saw-paintings/owl-saw-painting-1.jpg" alt="Hunting Trophy Paintings" style="width: 100%; display: block; margin-bottom: 0;">
+                </a>
+                <h3 style="margin-top: 15px;">Hunting Trophy Paintings</h3>
+                <p>Custom commemorative artwork highlighting a memorable harvest, turkey fan mount, or big game encounter.</p>
+                <a href="request-commission.html" class="btn" style="display: inline-block; margin-top: 15px;">Request Commission</a>
+            </div>
         </div>
     </section>
 
     <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
         <p>&copy; 2026 Brush & Timber. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
