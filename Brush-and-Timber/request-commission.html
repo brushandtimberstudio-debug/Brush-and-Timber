@@ -19,33 +19,52 @@
         </p>
     </header>
 
-    <section class="content">
-        <h2>Request a Commission</h2>
-        <p>Interested in a custom piece? Fill out the details below to start the conversation.</p>
-        
-        <div class="commission-box" style="max-width: 600px; margin: 30px auto; text-align: left;">
-            <form action="https://formspree.io/f/xeeyrbgo" method="POST" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
-                <div>
-                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Your Name</label>
-                    <input type="text" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-                </div>
-                
-                <div>
-                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Your Email</label>
-                    <input type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-                </div>
-                
-                <div>
-                    <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #1e3f20;">Project Details / Vision</label>
-                    <textarea name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;"></textarea>
-                </div>
-                
-                <button type="submit" class="btn" style="border: none; cursor: pointer; align-self: center; margin-top: 10px; padding: 10px 20px;">Submit Request</button>
-            </form>
+    <section class="content" style="max-width: 800px; margin: 0 auto; text-align: left; padding: 20px;">
+        <h2 style="text-align: center;">Commission Information & Request</h2>
+        <p style="text-align: center; color: #555;">We love bringing your custom ideas to life. Review our available styles and turnaround times below, then fill out our form to get started!</p>
+
+        <!-- STYLES & TURNAROUND TIMES -->
+        <div style="margin-top: 30px;">
+            <h3>Available Styles & Turnaround Times</h3>
+            <p style="font-size: 0.95rem; color: #666;"><em>Note: Turnaround times are approximate and start once reference photos and deposits are confirmed.</em></p>
+            
+            <div style="background: #f9f9f9; border-left: 4px solid #1e3f20; padding: 15px; margin-bottom: 15px;">
+                <h4 style="margin: 0 0 5px 0; color: #1e3f20;">🐶 Pet Portraits</h4>
+                <p style="margin: 0; font-size: 0.95rem;">Hand-painted custom portraits capturing your pet's exact personality. Standard canvas sizes available.</p>
+                <p style="margin: 5px 0 0 0; font-size: 0.9rem; font-weight: bold;">Approx. Turnaround Time: 2 to 3 weeks</p>
+            </div>
+
+            <div style="background: #f9f9f9; border-left: 4px solid #1e3f20; padding: 15px; margin-bottom: 15px;">
+                <h4 style="margin: 0 0 5px 0; color: #1e3f20;">🌲 Wildlife Art</h4>
+                <p style="margin: 0; font-size: 0.95rem;">Detailed scenes celebrating nature, outdoor landscapes, and North American wildlife.</p>
+                <p style="margin: 5px 0 0 0; font-size: 0.9rem; font-weight: bold;">Approx. Turnaround Time: 3 to 4 weeks</p>
+            </div>
+
+            <div style="background: #f9f9f9; border-left: 4px solid #1e3f20; padding: 15px; margin-bottom: 15px;">
+                <h4 style="margin: 0 0 5px 0; color: #1e3f20;">🪚 Saw Paintings</h4>
+                <p style="margin: 0; font-size: 0.95rem;">Rustic landscape and wildlife artwork hand-painted directly onto vintage crosscut saw blades.</p>
+                <p style="margin: 5px 0 0 0; font-size: 0.9rem; font-weight: bold;">Approx. Turnaround Time: 2 to 3 weeks</p>
+            </div>
+
+            <div style="background: #f9f9f9; border-left: 4px solid #1e3f20; padding: 15px; margin-bottom: 25px;">
+                <h4 style="margin: 0 0 5px 0; color: #1e3f20;">🦌 Hunting Trophy Paintings</h4>
+                <p style="margin: 0; font-size: 0.95rem;">Custom commemorative artwork highlighting a memorable harvest, turkey fan mount, or big game encounter.</p>
+                <p style="margin: 5px 0 0 0; font-size: 0.9rem; font-weight: bold;">Approx. Turnaround Time: 3 to 5 weeks</p>
+            </div>
         </div>
+
+        <!-- CALL TO ACTION FOR GOOGLE FORM -->
+        <div style="text-align: center; background: #eef4ee; padding: 30px; border-radius: 8px; margin-top: 40px;">
+            <h3>Ready to Start Your Custom Piece?</h3>
+            <p>Click below to fill out our commission request form with your size choices, details, and reference notes.</p>
+            
+            <!-- Replace "#" inside href with your actual Google Form share link -->
+            <a href="#" target="_blank" class="btn" style="display: inline-block; background-color: #1e3f20; color: white; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 15px;">Open Commission Request Form</a>
+        </div>
+
     </section>
 
-    <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem;">
+    <footer style="text-align: center; padding: 20px; color: #666; font-size: 0.9rem; margin-top: 40px;">
         <p>&copy; 2026 Brush & Timber. All rights reserved.</p>
     </footer>
 </body>
